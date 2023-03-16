@@ -1,7 +1,7 @@
 {
   "name": "pdfjs-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "to local test, set pdfjs-dist version 'file:path/to/mozilla/pdf.js/build/dist' eg, 'file:../../mozilla/pdf.js/build/dist/'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.15.3",
-    "pdfjs-dist": "file:../../mozilla/pdf.js/build/dist/",
+    "pdfjs-dist": "^3",
     "typescript": "^4.9.5"
   }
 }
